@@ -17,7 +17,13 @@
   text-decoration: underline;
   font-weight: 300;
   letter-spacing: 1px;
+  transition: color 0.3s linear;
 }
+
+.footer-services a:hover {
+  color: rgb(85, 76, 76);
+}
+
 .footer-services {
   text-align: center;
 }
@@ -77,6 +83,12 @@
 .footer-social i {
   font-size: 1.5rem;
   padding: 0 0.8rem;
+  transition: all 0.4s linear;
+}
+
+.footer-social i:hover {
+  transform: rotate(360deg);
+  color: rgb(85, 76, 76);
 }
 
 @media (max-width: 650px) {

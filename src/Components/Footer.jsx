@@ -38,10 +38,10 @@ function Footer() {
           <span>Created by ♥ from CryptoBuy</span>
         </div>
         <div className="footer-socials">
-          <i class="fa fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-linkedin"></i>
+          <i className="fa fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-linkedin"></i>
         </div>
       </div>
     </footer>

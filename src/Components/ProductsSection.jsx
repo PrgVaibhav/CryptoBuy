@@ -8,37 +8,37 @@ import Zcash from '/Images/zcash.png';
 const productData = [
   {
     id: 1,
-    img: { Bitcoin },
+    img: Bitcoin,
     title: 'Bitcoin',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
   {
     id: 2,
-    img: { Etherium },
+    img: Etherium,
     title: 'Etherium',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
   {
     id: 3,
-    img: { Dogecoin },
+    img: Dogecoin,
     title: 'DogeCoin',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
   {
     id: 4,
-    img: { Binace },
+    img: Binace,
     title: 'Binace',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
   {
     id: 5,
-    img: { Litecoin },
+    img: Litecoin,
     title: 'LiteCoin',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
   {
     id: 6,
-    img: { Zcash },
+    img: Zcash,
     title: 'ZCash',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
@@ -64,17 +64,6 @@ function ProductsSection() {
             </div>
           );
         })}
-        {/* <div className="product">
-          <div className="product-img">
-            <figure>
-              <img src={Bitcoin} alt="" />
-            </figure>
-          </div>
-          <div className="product-description">
-            <h1>Products</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.</p>
-          </div>
-        </div> */}
       </div>
     </div>
   );

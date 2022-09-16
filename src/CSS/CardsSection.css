@@ -35,6 +35,11 @@
   padding: 0.7rem;
   border-radius: 50%;
   margin-bottom: 0.7rem;
+  transition: all 0.7s linear;
+}
+
+.card-icon i:hover {
+  transform: rotate(360deg);
 }
 .card-detail {
   color: #fff;
