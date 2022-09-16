@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="contact" className="footer">
       <div className="footer-section">
         <div className="footer-logo">
           <h1>CryptoBuy</h1>

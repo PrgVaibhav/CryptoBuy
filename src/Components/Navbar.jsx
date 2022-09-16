@@ -35,7 +35,7 @@ function Navbar() {
                   <a href="#products">Products</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="#contact">Contact</a>
                 </li>
                 <li>
                   <button className="btn cta-btn" href="#">
