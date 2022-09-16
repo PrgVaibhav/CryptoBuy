@@ -1,40 +1,44 @@
 import React from 'react';
 import Bitcoin from '/Images/bitcoin.png';
-
+import Etherium from '/Images/etherium.png';
+import Dogecoin from '/Images/dogecoin.png';
+import Binace from '/Images/binace.png';
+import Litecoin from '/Images/litecoin.png';
+import Zcash from '/Images/zcash.png';
 const productData = [
   {
     id: 1,
-    img: '/Images/bitcoin.png',
+    img: { Bitcoin },
     title: 'Bitcoin',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
   {
     id: 2,
-    img: '/Images/etherium.png',
+    img: { Etherium },
     title: 'Etherium',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
   {
     id: 3,
-    img: '/Images/dogecoin.png',
+    img: { Dogecoin },
     title: 'DogeCoin',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
   {
     id: 4,
-    img: '/Images/binace.png',
+    img: { Binace },
     title: 'Binace',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
   {
     id: 5,
-    img: '/Images/litecoin.png',
+    img: { Litecoin },
     title: 'LiteCoin',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
   {
     id: 6,
-    img: '/Images/zcash.png',
+    img: { Zcash },
     title: 'ZCash',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolor quibusdam sint.',
   },
