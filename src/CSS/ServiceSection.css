@@ -1,0 +1,58 @@
+.service-bg-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Images/sampl-2.avif);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 70vh;
+  color: white;
+
+  /* text-align: justify; */
+  font-family: 'Poppins', sans-serif;
+}
+
+.service {
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  transition: transform 0.4s linear;
+}
+
+.service:hover {
+  transform: scale(1.1);
+}
+
+.heading h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  font-size: 1.4rem;
+}
+.service ul {
+  padding: 1rem;
+}
+
+.service ul .heading {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgb(131, 126, 126);
+}
+
+.heading li {
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  /* color: rgb(170, 158, 158); */
+}
+@media (max-width: 468px) {
+  .services {
+    font-size: 1rem;
+  }
+
+  .service:hover {
+    transform: scale(1.01);
+  }
+}

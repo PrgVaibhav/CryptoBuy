@@ -1,0 +1,51 @@
+.cards-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  gap: 1rem;
+  font-family: Poppins, sans-serif;
+  transition: all 0.5 linear;
+  position: relative;
+  max-width: 80%;
+  margin: 5rem auto;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 250px;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.card-section:hover {
+  background-color: #293462;
+  transform: scale(1.1);
+}
+
+.card-icon i {
+  font-size: 2.5rem;
+  background: #fff;
+  padding: 0.7rem;
+  border-radius: 50%;
+  margin-bottom: 0.7rem;
+}
+.card-detail {
+  color: #fff;
+}
+
+.card-detail h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.card-detail span {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
