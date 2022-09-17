@@ -1,6 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Navbar() {
+  const [fixNavbar, setFixNavbar] = useState(false);
+
+  function checkNavScroll() {
+    if (window.scrollY >= 300) {
+      setFixNavbar(true);
+    } else {
+      setFixNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', checkNavScroll);
   function onToggle() {
     const navToggler = document.querySelector('.nav-toggler');
     navToggler.classList.toggle('active');
@@ -12,9 +23,11 @@ function Navbar() {
       nav.setAttribute('style', '');
     }
   }
+
+  console.log(window.scrollY);
   return (
     <>
-      <header className="header">
+      <header className={fixNavbar ? 'header fixed' : 'header'}>
         <div className="container">
           <div className="row">
             <div className="logo">
